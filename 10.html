@@ -1,0 +1,21 @@
+
+<!-- change the text of paragraph by js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam sed officiis, modi unde ea perspiciatis at nam tempore provident accusamus. Accusamus labore in ratione cumque inventore qui necessitatibus veritatis.</p>
+ <button id="btn" onclick="change()">click</button>
+ <script>
+    let para = document.getElementById('para');
+    let btn = document.getElementById('btn');
+ function change(){
+    para.textContent="thank you for click";
+ }
+ </script>
+</body>
+</html>

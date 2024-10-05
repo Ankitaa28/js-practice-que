@@ -1,0 +1,9 @@
+// use map() to double the element in an array
+let arr =[10,15,20,25,30,35,40,45,50];
+function double(arr){
+    return arr.map((num)=>{
+     return num*2;
+    })
+}
+console.log(double(arr));
+console.log(arr);
